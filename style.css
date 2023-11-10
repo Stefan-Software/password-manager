@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Mercedes-Benz Font';
+    src: url('Mercedes-Benz Font.ttf') format('truetype');
+}
+
+body {
+    background-color: #343a40;
+    color: #fff;
+    font-family: 'Mercedes-Benz Font', sans-serif;
+    text-align: center;
+    height: 100svh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: auto;
+    width: clamp(450px, 55vw, 700px);
+}
+
+.input-label {
+    margin: 0;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.quick-panel {
+    border: 1px solid rgb(73, 80, 87);
+    background-color: rgb(33, 37, 41);
+    width: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
